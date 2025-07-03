@@ -1,0 +1,158 @@
+body {
+  background-color: #fddde8;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 60px;
+  height: 100vh;
+}
+
+.logo {
+  width: 400px;
+  margin-bottom: 0px;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 360px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0a9bc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #e91e63;
+  outline: none;
+  box-shadow: 0 0 5px rgba(233, 30, 99, 0.3);
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #d81b60;
+}
+
+.img-cuei {
+  position: fixed;
+  bottom: 10px;
+  left: 10px; 
+  width: 600px; 
+  height: auto;
+  z-index: 10;
+}
+
+.img-cuei2 {
+  position: fixed;
+  bottom: 10px; 
+  right: 10px;
+  width: 600px;    
+  height: auto;
+  z-index: 10;
+}
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffe6f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #ffb6c1;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .produto {
+            background-color: white;
+            border: 2px solid #ffcce0;
+            border-radius: 12px;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .produto img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .produto h3 {
+            color: #e91e63;
+        }
+
+        .botao-comprar {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .botao-comprar:hover {
+            background-color: #c2185b;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ffd6e7;
+            width: 100%;
+            text-align: center;
+        }
